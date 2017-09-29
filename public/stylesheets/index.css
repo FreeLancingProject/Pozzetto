@@ -1,0 +1,66 @@
+.background{
+    background: url("../images/412086-2880x1800.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.HeaderNavFontStyle
+{
+    color: #000;
+    font-size: 18px;
+}
+.HeaderNavTitleFontStyle{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    font-family:  'Fredericka the Great', cursive;
+
+
+}
+.HeaderNavPadding{
+    padding:25px;
+    padding-bottom: 0px;
+}
+
+.navbar-header{
+    background-color: rgba(0, 0, 0, 0.57);
+    padding: 0px 35px 0px 22px;
+
+}
+.navbar-header-text-style{
+    color: white;
+    margin-bottom: 30px;
+}
+.HeaderFontPadding{
+    padding:0px 0px 0px 0px;
+}
+.Intro-text{
+    text-align: center;
+    clear: both;
+    padding: 15px;
+    font-size: 18px;
+    font-family:  'Cabin Sketch', cursive;
+
+}
+.navbar-brand{
+    float: none!important;
+    padding: 0px!important;
+}
+.btn-primary{
+    color: white;
+    background-color: rgba(51, 122, 183, 0);
+    border-color: #f3f3f3
+}
+.bodyMainHeading{
+    padding : 11px;
+    padding-top: 0px;
+}
+.navbar{
+    margin-bottom: 0px !important;
+}
+.infoBody{
+    background-color: rgba(0, 0, 0, 0.57);
+    margin-left: 0px;
+    padding: 10px;
+}

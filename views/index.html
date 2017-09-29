@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="PozzettoApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Pozetto</title>
+
+    <link rel="stylesheet" href="../stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="../stylesheets/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+
+</head>
+<body ng-controller="homeController">
+<div class="background">
+    <div class="container">
+        <div class="row">
+            <nav class="navbar">
+                <div class="container-fluid HeaderNavPadding">
+                    <div class="navbar-header col-sm-12 col-xs-12 col-md-4 col-xl-4">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        <div class="Intro-text">
+                            <a class="navbar-brand HeaderNavTitleFontStyle" href="#">Pozzetto<br></a>
+
+                        </div>
+
+                    </div>
+                    <div class="collapse menuColor navbar-collapse col-sm-12 col-xs-12 col-md-8 col-xl-8" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li class="active HeaderFontPadding"><a class="HeaderNavFontStyle" href="#/">Home</a></li>
+                            <li class="HeaderFontPadding"><a class="HeaderNavFontStyle" href="#gallery">Gallery</a></li>
+                            <li class="HeaderFontPadding"><a class="HeaderNavFontStyle" href="#menu">Menu</a></li>
+                            <li class="HeaderFontPadding"><a class="HeaderNavFontStyle" href="#orderOnline">Order
+                                Online</a></li>
+                            <li class="HeaderFontPadding"><a class="HeaderNavFontStyle" href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+        <div class="row bodyMainHeading">
+            <div class="container-fluid">
+                <div class="navbar-header col-sm-12 col-xs-12 col-md-4 col-xl-4">
+                    <div class="Intro-text">
+                        <p class="navbar-header-text-style"><br>Welcome to the land of italy</p>
+                        <p class="navbar-header-text-style"><br>Italian food is more than just pizza and spaghetti.
+                            There’s a wide range of ingredients, flavors, and dishes to experiment with in your own
+                            home.</p>
+                        <strong style="color: white"><br> RESERVSTIONS</strong>
+                         <div>
+                        <div class="dropdown" style="padding: 20px">
+                            <button class="btn btn-primary dropdown-toggle" type="button"
+                                    data-toggle="dropdown">
+                                Dropdown Example
+                                <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">HTML</a></li>
+                                <li><a href="#">CSS</a></li>
+                                <li><a href="#">JavaScript</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="dropdown" style="padding: 20px">
+                            <button class="btn btn-primary dropdown-toggle" type="button"
+                                    data-toggle="dropdown">
+                                Dropdown Example
+                                <span class="caret"></span></button>
+
+                        </div>
+                         </div>
+
+
+                        <div style="color: white">
+                            ABOUT US
+                            114 Bonita Ave San Dimas
+                            9999999999
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row infoBody col-sm-12 col-xs-12 col-md-8 col-xl-8" id="main">
+                    <div ng-view style="align-content: center"></div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="../javascripts/jquery-3.2.1.min.js"></script>
+<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+<script type="text/javascript" src="../javascripts/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>
+
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.2/angular-route.min.js"></script>
+<script type="text/javascript" src="../controller/controller.js"></script>
+
+
+</body>
+
+
+</body>
+</html>
