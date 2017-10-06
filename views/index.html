@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <title>Pozetto</title>
 
+
     <link rel="stylesheet" href="../stylesheets/bootstrap.min.css">
     <link rel="stylesheet" href="../stylesheets/index.css">
-    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+    <link rel="stylesheet" href="../stylesheets/datePickerStyle.css">
+    <link rel="stylesheet" href="../stylesheets/bootstrap-datepicker.css">
+
+
 
 </head>
 <body ng-controller="homeController">
@@ -51,28 +54,27 @@
                         <p class="navbar-header-text-style"><br>Italian food is more than just pizza and spaghetti.
                             There’s a wide range of ingredients, flavors, and dishes to experiment with in your own
                             home.</p>
-                        <strong style="color: white"><br> RESERVSTIONS</strong>
-                         <div>
-                        <div class="dropdown" style="padding: 20px">
-                            <button class="btn btn-primary dropdown-toggle" type="button"
-                                    data-toggle="dropdown">
-                                Dropdown Example
-                                <span class="caret"></span></button>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">HTML</a></li>
-                                <li><a href="#">CSS</a></li>
-                                <li><a href="#">JavaScript</a></li>
-                            </ul>
-                        </div>
+                        <strong style="color: white"><br> RESERVATIONS</strong>
+                        <div>
+                            <div style="padding: 20px">
+                                <div id="datepicker" class="input-group date" data-date-format="mm-dd-yyyy">
 
-                        <div class="dropdown" style="padding: 20px">
-                            <button class="btn btn-primary dropdown-toggle" type="button"
-                                    data-toggle="dropdown">
-                                Dropdown Example
-                                <span class="caret"></span></button>
+                                    <input class="form-control custom-input" type="text" placeholder="Date" style="background-color:rgba(0, 0, 0, 0.15); color: white; "/>
+                                    <span class="input-group-addon  bg-white "></span>
+                                </div>
+                            </div>
+
+
+                            <div class="dropdown" style="padding: 20px">
+                                <button class="btn btn-primary dropdown-toggle" type="button"
+                                        data-toggle="dropdown">
+                                    Dropdown Example
+                                    <span class="caret"></span></button>
+
+                            </div>
+
 
                         </div>
-                         </div>
 
 
                         <div style="color: white">
@@ -89,7 +91,6 @@
                 </div>
 
 
-
             </div>
         </div>
     </div>
@@ -101,10 +102,13 @@
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>
-
+<script type="text/javascript" src="../javascripts/index.js"></script>
+<script type="text/javascript" src="../javascripts/bootstrap-datepicker.js"></script>
 <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.2/angular-route.min.js"></script>
 <script type="text/javascript" src="../controller/controller.js"></script>
+<script type="text/javascript"
+        src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.10.0/ui-bootstrap-tpls.min.js"></script>
 
 
 </body>

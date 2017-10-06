@@ -1,7 +1,7 @@
 /**
  * Created by tarun on 9/13/2017.
  */
-var PozzettoApp = angular.module('PozzettoApp', ['ngRoute']);
+var PozzettoApp = angular.module('PozzettoApp', ['ngRoute', 'ui.bootstrap']);
 
 // configure our routes
 PozzettoApp.config(function ($routeProvider) {
@@ -54,3 +54,23 @@ PozzettoApp.controller('orderOnlineController', function ($scope) {
     $scope.message = "This is the Order Online page";
 
 });
+
+PozzettoApp.controller ('CarouselCtrl', function ($scope) {
+
+    $scope.slides = [
+        {
+            image: 'images/background.jpg',
+            height: '250px'
+        },
+        {
+            image: 'images/wooden-background-with-italian-pasta-and-basil_23-2147606554.jpg',
+            height: '250px'
+
+        }
+
+
+    ];
+
+});
+
+

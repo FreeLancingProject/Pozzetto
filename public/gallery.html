@@ -1,1 +1,16 @@
 <link rel="stylesheet" href="stylesheets/gallery.css">
+
+
+                <div ng-controller="CarouselCtrl" id="slides_control" >
+                                <carousel >
+                                        <slide ng-repeat="slide in slides" active="slide.active" >
+                                                <img ng-src="{{slide.image}}">
+                                                <div class="carousel-caption">
+                                                        <h4>Slide {{$index+1}}</h4>
+                                                </div>
+                                        </slide>
+                                </carousel>
+                </div>
+
+
+
